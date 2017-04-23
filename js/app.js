@@ -96,8 +96,8 @@ function stop() {
     client.endMicAndRecognition();
 }
 
-function download() {
-    alert('Downloading Document');
+function erase() {
+    document.getElementById("textArea").value = '';
 }
 
 function saveTextAsWord() {
