@@ -6,6 +6,10 @@ body
 		margin:0;
 		background-color:#f4f4f4;
 	}
+
+.save {
+	width: 50%;
+}
 header u1
 	{
 		margin:0;
@@ -75,7 +79,8 @@ header a:hover
 #showcase
 	{
 		min-height:400px;
-		background:url(../images/banner.png) no-repeat;
+		/*background:url(../images/banner.png) no-repeat;*/
+		background-color: #5AAAE5;
 		text-align:center;
 		color:white
 	}
