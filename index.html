@@ -33,12 +33,13 @@
 		<section id="showcase">
 			<div class="container">
 				<h1>Hit play to start taking notes!</h1>
-				<p>Never lose focus by taking notes agian. Accompanote records the lectures automatically.</p>
+				<p>Never lose focus by taking notes agian. Autonotes records the lectures automatically.</p>
+				<img src="images/logo.png" height="100" width="100">
 			</div>
 		</section>
 		
 		<section id="newsletter">
-			<div class ="container">
+			<div class ="container"><br>
 				<h1>Subscribe for Updates</h1>
 				<form>
 					<input type = "email" placeholder="Enter Email">
@@ -63,7 +64,7 @@
 							<i class="pause icon"></i>
 						</button>
 						<button onclick="download()" class="ui button">
-							<i class="download icon"></i>
+							<i class="trash icon"></i>
 						</button>
 					</div><br>
 
@@ -76,9 +77,9 @@
 				    <div class="save">
 				    	<label>Save as:</label><br>
 				    	<div class="three ui buttons">
-							<button onclick="saveTextAsPDF()" class="ui button">PDF</button>
 							<button onclick="saveTextAsWord()" class="ui button">Word</button>
-							<button onclick="saveTextAsText()" class="ui button">Text</button>
+							<button onclick="saveTextAsRTF()" class="ui button">Rich Text</button>
+							<button onclick="saveTextAsText()" class="ui button">Plain Text</button>
 						</div>
 				    </div>
 				</center>
